@@ -17,7 +17,7 @@
    ```
 
 3. **Set up the environment:**
-Create a .env file and add your MongoDB URI. Replace <username> and <password> with alvinasw159:
+Replace <username> and <password> in .env file with alvinasw159:
 
    ```env
    MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/'queue_app?retryWrites=true&w=majority
