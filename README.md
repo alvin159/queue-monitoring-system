@@ -10,9 +10,10 @@
    cd backend
    ```
 
-2. **Install the dependecies:**
+2. **Navigate to the backend folder and install the dependecies**
 
    ```bash
+   cd backend
    npm install
    ```
 
@@ -23,13 +24,25 @@ Replace <username> and <password> in .env file with alvinasw159:
    MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/'queue_app?retryWrites=true&w=majority
 
    ```
+4. **Navigate to the camera module folder and install requirements**
+   ```bash
+   cd ../camera_module/camera_module
+   pip install -r requirements.txt
+   ```
 
-4. **Start the server:**
+5. **Start the server:**
 
    ```bash
+   cd backend
    npm start
    ```
 The server will run on http://localhost:5000.
+
+6. **Start the camera module by running following command in a second command propmpt**
+   ```bash
+   cd camera_module/camera_module
+   python main.py
+   ```
 
 
 **Example: POST Request**
@@ -52,5 +65,4 @@ Response (example) on http://localhost:5000/api/queues:
         "timestamp": "2025-03-26T16:42:04.532Z",
         "__v": 0
     }
-
    ```
