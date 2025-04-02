@@ -10,7 +10,7 @@
    cd backend
    ```
 
-2. **Clone the repository:**
+2. **Install the dependecies:**
 
    ```bash
    npm install
